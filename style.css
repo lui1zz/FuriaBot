@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f0f;
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #ffcc00;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #ffcc00;
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffd633;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  margin: 10px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.demo {
+  margin-top: 50px;
+}
+
+.chat-sim {
+  background-color: #191919;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+}
+
+.user-msg {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.bot-msg {
+  background-color: #262626;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffcc00;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #999;
+}
