@@ -1,0 +1,15 @@
+python-telegram-bot==20.0
+google-generativeai
+telegram
+feedparser
+requests
+feedparser
+google-generativeai
+python-telegram-bot[job-queue]
+requests
+feedparser
+google-generativeai
+python-telegram-bot[job-queue]
+requests
+openai
+duckduckgo-search
